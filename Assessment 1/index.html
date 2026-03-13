@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Marks System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1> Student Marks Management</h1>
+
+<div class="form-box">
+
+<input type="text" id="name" placeholder="Student Name">
+<input type="number" id="roll" placeholder="Roll Number">
+<input type="number" id="math" placeholder="Math Marks">
+<input type="number" id="science" placeholder="Science Marks">
+<input type="number" id="english" placeholder="English Marks">
+
+<button onclick="addStudent()">Add Student</button>
+
+</div>
+
+
+<div class="buttons">
+
+<button onclick="displayStudents()">Display Students</button>
+<button onclick="calculateTotals()">Calculate Totals</button>
+<button onclick="calculateAverage()">Calculate Average</button>
+<button onclick="topStudents()">Above 80 Average</button>
+<button onclick="failedStudents()">Failed Students</button>
+<button onclick="countStudents()">Total Students</button>
+
+</div>
+
+
+<div id="output"></div>
+
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
